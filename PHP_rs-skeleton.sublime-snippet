@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[\$sql = "$2";
+	\$$1 = \$db->query(\$sql);
+	class row{}
+	\$obj = \$$1->fetchAll(PDO::FETCH_CLASS, 'row');
+	foreach(\$obj as \$row) {
+		$0
+	}
+	close(\$$1);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

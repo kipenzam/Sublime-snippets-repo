@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[USE $1
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+IF OBJECT_ID('$2') IS NOT NULL DROP PROC $2
+GO
+
+
+CREATE PROC $2
+	@${3:매개변수. 기본값 쓸때는 변수 타입 뒤에 = 문자}
+
+AS
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>CP</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>

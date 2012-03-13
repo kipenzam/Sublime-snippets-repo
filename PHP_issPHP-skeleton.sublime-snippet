@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[<?php
+require(\$_SERVER['DOCUMENT_ROOT'].'\include_php\utf8.php');
+
+\$page->title = "";
+//\$page->use_Underscore();
+//\$page->use_jQueryUI();
+\$page->style(\$this_file, '1.0');
+\$page->begin();
+?>
+
+<?php
+\$page->script(\$this_file, '1.0');
+\$page->end();
+?>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>issPHP</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

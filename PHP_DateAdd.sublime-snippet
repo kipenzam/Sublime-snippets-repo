@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[DateAdd(${1:ymd-P10D}, ${2:isNegative-생략하면 더하고 1을 넣으면 뺌}, ${3:addFrom 기본값은 \$today})]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>DateAdd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

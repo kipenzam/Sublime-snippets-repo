@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[sum(${1:숫자 배열}) ${2:/*받은 배열의 총 합을 반환함*/}]]></content>
+	<tabTrigger>sum</tabTrigger>
+	<!-- <scope>source.js</scope> -->
+</snippet>

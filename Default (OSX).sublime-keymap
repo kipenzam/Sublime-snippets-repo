@@ -1,0 +1,46 @@
+[
+    {
+	    "keys": ["alt+q"], "command": "insert_snippet", 
+    	"args": {"contents": "<볼드>$SELECTION$1</볼드>$0"}
+	    },
+    {
+	    "keys": ["alt+w"], "command": "insert_snippet", 
+    	"args": {"contents": "<코드>$SELECTION$1</코드>$0"}
+    },
+    {
+	    "keys": ["alt+r"], "command": "insert_snippet", 
+    	"args": {"contents": "<밑줄>$SELECTION$1</밑줄>$0"}
+    },
+    {
+        "keys": ["alt+t"], "command": "insert_snippet", 
+        "args": {"contents": "<절제목>\n$SELECTION$1\n</절제목>$0"}
+    },
+    {
+        "keys": ["alt+y"], "command": "insert_snippet", 
+        "args": {"contents": "<중제목>\n$SELECTION$1\n</중제목>$0"}
+    },
+    {
+        "keys": ["alt+a"], "command": "insert_snippet", 
+        "args": {"contents": "<이탤릭>$SELECTION$1</이탤릭>$0"}
+    },
+    {
+        "keys": ["alt+s"], "command": "insert_snippet", 
+        "args": {"contents": "<주석표시>$SELECTION$1</주석표시>$0"}
+    },
+    {
+        "keys": ["alt+d"], "command": "insert_snippet", 
+        "args": {"contents": "<URL>$SELECTION$1</URL>$0"}
+    },
+    {
+        "keys": ["alt+z"], "command": "insert_snippet", 
+        "args": {"contents": "<문단>\n$SELECTION$1\n</문단>$0"}
+    },
+    {
+	    "keys": ["alt+c"], "command": "insert_snippet", 
+    	"args": {"contents": "<코드블럭>\n$SELECTION$1\n</코드블럭>$0"}
+    },
+    {
+        "keys": ["alt+v"], "command": "insert_snippet", 
+        "args": {"contents": "<각주>\n$SELECTION$1\n</각주>$0"}
+    }
+]
